@@ -1,6 +1,6 @@
 # Mr Sphere
 
-This is a little practice application that covers the basics of three.js along with some little gsap timeline animations. The start of learning three.js, with more projects involving the framework coming soon...
+This is a little practice application that covers the basics of three.js along with some little gsap timeline animations. The start of learning three.js, with more projects involving the library coming soon...
 
 # Table of Contents
 
