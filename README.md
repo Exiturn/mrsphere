@@ -40,4 +40,10 @@ The small usage of gsap also gave me some practice with their animation pipeline
 
 This little project has definitely made me want to delve deeper into Three.js and skill it further.
 
+## Author
+
+_Github_ [@ExiturnM](https://github.com/Exiturn)  
+_LinkedIn_ [Bryan Magistrado](https://www.linkedin.com/in/bryan-magistrado/)
+
+
 
