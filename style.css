@@ -53,6 +53,7 @@ nav {
 nav a {
   text-decoration: none;
   background: white;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200%;
@@ -69,6 +70,7 @@ nav ul > li:hover {
   background: linear-gradient(90deg, #4CAF50 0%, #31DCFF 50%, #4CAF50 100%);
   animation: background-pan 3s linear infinite;
   background-size: 200%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -76,6 +78,7 @@ nav ul > li:hover {
 .title {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(90deg, #4CAF50 0%, #31DCFF 50%, #4CAF50 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200%;
