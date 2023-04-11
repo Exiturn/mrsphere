@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+body, html {
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+}
+
+.main {
+  background-color: black;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 8%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200%;
+}
+
+nav ul {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  gap: 4rem;
+}
+
+nav ul > li:hover {
+  background: linear-gradient(90deg, #4CAF50 0%, #31DCFF 50%, #4CAF50 100%);
+  animation: background-pan 3s linear infinite;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(90deg, #4CAF50 0%, #31DCFF 50%, #4CAF50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200%;
+  white-space: nowrap;
+  z-index: 3;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
