@@ -6,7 +6,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 //Scene
 const scene = new THREE.Scene();
 
-//Create the sphere
+//Create the spheree
 const geometry = new THREE.SphereGeometry(3, 64, 64)
 const material = new THREE.MeshStandardMaterial({
   color: '#00ff83',
